@@ -35,4 +35,4 @@ Check this directory `default-port-list` contains default ports list in `.txt` f
 | `-top-ports 100`  | Scan for nmap top **100** port       |
 | `-top-ports 1000` | Scan for nmap top **1000** port      |
 | `-p - `           | Scan for full ports from **1-65535** |
-| `-favourite`      | Scan my favourite ports from default-port-list |
+| `-favourite`      | Scan my favourite ports from **default-port-list** |

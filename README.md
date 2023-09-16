@@ -27,6 +27,18 @@ USAGE EXAMPLES:
    portscan -l subs.txt -favourite -t 5000 -rl 1000 -sc 200,301,302,401,403
 ```
 
+# subs.txt file must contains output with protocol like this
+```
+https://hackerone.com
+https://tesla.com
+```
+
+or
+```
+http://hackerone.com
+http://tesla.com
+```
+
 # Ports Usage
 Check this directory `default-port-list` contains default ports list in `.txt` files
 

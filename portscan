@@ -48,7 +48,7 @@ banner(){
 
 function print_usage(){
     banner
-    echo -e "${GREEN}TARGET OPTIONS${RESET}"
+    echo -e "${GREEN}TARGET OPTIONS:${RESET}"
     echo -e "   -l, -list, string            list of hosts to scan ports (file)"
     echo -e "   -tp, -top-ports, string      top ports to scan (default 100) [100,1000,Full,Favourite]"
     echo -e "   -t, -threads int             number of threads to use (default 5000)"
@@ -56,7 +56,7 @@ function print_usage(){
     echo -e "   -sc, -status-code            display response status-code"
     echo -e "   -h, --help                   display help"
     echo -e ""
-    echo -e "${GREEN}USAGE EXAMPLES${RESET}"
+    echo -e "${GREEN}USAGE EXAMPLES:${RESET}"
     echo -e "   ${BYELLOW}portscan -l subs.txt -top-ports 100 -t 5000 -rl 1000 -sc 200,301,302,401,403${RESET}"
     echo -e "   ${BYELLOW}portscan -l subs.txt -p - -t 5000 -rl 1000 -sc 200,301,302,401,403${RESET}"
     echo -e "   ${BYELLOW}portscan -l subs.txt -favourite -t 5000 -rl 1000 -sc 200,301,302,401,403${RESET}"
